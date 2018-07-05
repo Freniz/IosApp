@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2ECCBF9B20EDF15D0019A259 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECCBF9A20EDF15D0019A259 /* SWRevealViewController.m */; };
+		2ECCBF9D20EDF3FD0019A259 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECCBF9C20EDF3FD0019A259 /* ViewController.swift */; };
 		C74AC53720ED477000B22D49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74AC53620ED477000B22D49 /* AppDelegate.swift */; };
-		C74AC53920ED477000B22D49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74AC53820ED477000B22D49 /* ViewController.swift */; };
 		C74AC53C20ED477000B22D49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C74AC53A20ED477000B22D49 /* Main.storyboard */; };
 		C74AC53E20ED477100B22D49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C74AC53D20ED477100B22D49 /* Assets.xcassets */; };
 		C74AC54120ED477100B22D49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C74AC53F20ED477100B22D49 /* LaunchScreen.storyboard */; };
@@ -34,9 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2ECCBF9820EDF15B0019A259 /* SampleApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		2ECCBF9920EDF15D0019A259 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../../../Downloads/SWRevealViewController-master/SWRevealViewController/SWRevealViewController.h"; sourceTree = "<group>"; };
+		2ECCBF9A20EDF15D0019A259 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../../../Downloads/SWRevealViewController-master/SWRevealViewController/SWRevealViewController.m"; sourceTree = "<group>"; };
+		2ECCBF9C20EDF3FD0019A259 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C74AC53320ED477000B22D49 /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C74AC53620ED477000B22D49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C74AC53820ED477000B22D49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C74AC53B20ED477000B22D49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C74AC53D20ED477100B22D49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C74AC54020ED477100B22D49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,11 +102,14 @@
 			isa = PBXGroup;
 			children = (
 				C74AC53620ED477000B22D49 /* AppDelegate.swift */,
-				C74AC53820ED477000B22D49 /* ViewController.swift */,
 				C74AC53A20ED477000B22D49 /* Main.storyboard */,
 				C74AC53D20ED477100B22D49 /* Assets.xcassets */,
 				C74AC53F20ED477100B22D49 /* LaunchScreen.storyboard */,
+				2ECCBF9920EDF15D0019A259 /* SWRevealViewController.h */,
+				2ECCBF9A20EDF15D0019A259 /* SWRevealViewController.m */,
 				C74AC54220ED477100B22D49 /* Info.plist */,
+				2ECCBF9820EDF15B0019A259 /* SampleApp-Bridging-Header.h */,
+				2ECCBF9C20EDF3FD0019A259 /* ViewController.swift */,
 			);
 			path = SampleApp;
 			sourceTree = "<group>";
@@ -193,6 +200,7 @@
 				TargetAttributes = {
 					C74AC53220ED477000B22D49 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					C74AC54620ED477100B22D49 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -256,8 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C74AC53920ED477000B22D49 /* ViewController.swift in Sources */,
+				2ECCBF9D20EDF3FD0019A259 /* ViewController.swift in Sources */,
 				C74AC53720ED477000B22D49 /* AppDelegate.swift in Sources */,
+				2ECCBF9B20EDF15D0019A259 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +439,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y7688HVCJ3;
 				INFOPLIST_FILE = SampleApp/Info.plist;
@@ -439,6 +449,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.freniz.SampleApps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SampleApp/SampleApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,6 +460,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y7688HVCJ3;
 				INFOPLIST_FILE = SampleApp/Info.plist;
@@ -457,6 +470,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.freniz.SampleApps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SampleApp/SampleApp-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
