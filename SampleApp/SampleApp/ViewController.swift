@@ -36,6 +36,10 @@ class ViewController: UIViewController {
         
         view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         
+        UIView.animate(withDuration: 4.0, delay: 2.0, options: UIViewAnimationOptions.curveEaseIn, animations:  {
+            self.view.layoutIfNeeded()
+        }, completion: nil)
+        
     }
     /*
     // MARK: - Navigation

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2ECCBF9B20EDF15D0019A259 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECCBF9A20EDF15D0019A259 /* SWRevealViewController.m */; };
 		2ECCBF9D20EDF3FD0019A259 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECCBF9C20EDF3FD0019A259 /* ViewController.swift */; };
 		C74AC53720ED477000B22D49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74AC53620ED477000B22D49 /* AppDelegate.swift */; };
 		C74AC53C20ED477000B22D49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C74AC53A20ED477000B22D49 /* Main.storyboard */; };
@@ -15,6 +14,7 @@
 		C74AC54120ED477100B22D49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C74AC53F20ED477100B22D49 /* LaunchScreen.storyboard */; };
 		C74AC54C20ED477100B22D49 /* SampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74AC54B20ED477100B22D49 /* SampleAppTests.swift */; };
 		C74AC55720ED477100B22D49 /* SampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74AC55620ED477100B22D49 /* SampleAppUITests.swift */; };
+		C74AC56C20EFFF4900B22D49 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C74AC56A20EFFF4800B22D49 /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +36,6 @@
 
 /* Begin PBXFileReference section */
 		2ECCBF9820EDF15B0019A259 /* SampleApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleApp-Bridging-Header.h"; sourceTree = "<group>"; };
-		2ECCBF9920EDF15D0019A259 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../../../Downloads/SWRevealViewController-master/SWRevealViewController/SWRevealViewController.h"; sourceTree = "<group>"; };
-		2ECCBF9A20EDF15D0019A259 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../../../Downloads/SWRevealViewController-master/SWRevealViewController/SWRevealViewController.m"; sourceTree = "<group>"; };
 		2ECCBF9C20EDF3FD0019A259 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C74AC53320ED477000B22D49 /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C74AC53620ED477000B22D49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +49,8 @@
 		C74AC55220ED477100B22D49 /* SampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C74AC55620ED477100B22D49 /* SampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAppUITests.swift; sourceTree = "<group>"; };
 		C74AC55820ED477100B22D49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C74AC56A20EFFF4800B22D49 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		C74AC56B20EFFF4900B22D49 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +105,8 @@
 				C74AC53A20ED477000B22D49 /* Main.storyboard */,
 				C74AC53D20ED477100B22D49 /* Assets.xcassets */,
 				C74AC53F20ED477100B22D49 /* LaunchScreen.storyboard */,
-				2ECCBF9920EDF15D0019A259 /* SWRevealViewController.h */,
-				2ECCBF9A20EDF15D0019A259 /* SWRevealViewController.m */,
+				C74AC56B20EFFF4900B22D49 /* SWRevealViewController.h */,
+				C74AC56A20EFFF4800B22D49 /* SWRevealViewController.m */,
 				C74AC54220ED477100B22D49 /* Info.plist */,
 				2ECCBF9820EDF15B0019A259 /* SampleApp-Bridging-Header.h */,
 				2ECCBF9C20EDF3FD0019A259 /* ViewController.swift */,
@@ -266,7 +266,7 @@
 			files = (
 				2ECCBF9D20EDF3FD0019A259 /* ViewController.swift in Sources */,
 				C74AC53720ED477000B22D49 /* AppDelegate.swift in Sources */,
-				2ECCBF9B20EDF15D0019A259 /* SWRevealViewController.m in Sources */,
+				C74AC56C20EFFF4900B22D49 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
