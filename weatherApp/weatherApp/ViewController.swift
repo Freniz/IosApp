@@ -53,7 +53,9 @@ class ViewController: UIViewController {
                 let main:Dictionary = final_data as! Dictionary<String, Any>
                 let wind:Dictionary = main["main"] as! Dictionary<String, Any>
                 
-                let deg:Int = wind["temp"] as! Int
+//                let deg:Float = wind["temp"] as! Float
+                let deg = (wind["temp"] as? NSNumber)?.floatValue ?? 0
+                
                 let icon = " °C"
                 self.degree.text = "\(deg)" + icon
                 self.name_city.text = city_name
